@@ -13,4 +13,8 @@
 
 ![image](https://github.com/matheuslaidler/PasswdGen/assets/76860503/7b8ea00f-5636-4e98-b849-15e04d9a4816)
 
-- Créditos: Matheus Laidler.
+## Objetivo?
+ - Um dos meus objetivos é usar este programa como um exemplo prático pra minha "apostila" de estudos. Em um dos artigos que será sobre ensinar python, este programa será/poderá ser um dos exemplos a serem feitos junto com o leitor, então já deixei cada parte do programa comentada e preparada para isso.
+
+# Créditos
+- Criador: Matheus Laidler
