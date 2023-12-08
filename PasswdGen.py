@@ -1,9 +1,8 @@
 '''
-Script feito por Matheus Laidler para um artigo ajudando a aprender Python. Foco em conteúdos de cibersegurança para iniciante.
-'''
-'''
-Script gerador de palavra-chave aleatória e com regra. 
-Caso não queira alguma das regras, só colocar o valor 0. Ex: Se não quiser cartactere especial, deixe o tamanho de simbolos em 0.
+Script feito por Matheus Laidler para um artigo ajudando a aprender Python.
+* Gerador de palavra-chave aleatória e com regra *
+Caso não queira alguma das regras, só colocar o valor 0. 
+Ex: Se não quiser cartactere especial, deixe o tamanho de simbolos em 0.
 '''
 
 import random
@@ -47,7 +46,7 @@ def main():
     Printando mensagens na tela com estrutura. 
     O primeiro print é referente a estrutura falada que serve como separador visual.
     Ele é usado para imprimir uma linha de iguais ("=="), hífens (“-”), ou o que quiser colocar na tela. O * é um operador de multiplicação e quando usado com str, ele repete-a um determinado número de vezes. Então, print("="*60) imprime uma linha de 60 iguais. Isso é geralmente feito para melhorar a legibilidade da saída, agindo como uma espécie de separador visual entre diferentes seções de texto.
-    O \n é uman forma de quebra de linha (pular linha), assim como quando usamos o print vazio, também mostrado mais abaixo.
+    O '\n' é uman forma de quebra de linha (pular linha), assim como quando usamos o print vazio, também mostrado mais abaixo.
     O ‘f’ antes das aspas indica uma string formatada. Uma nova maneira de formatar strings introduzida no Python 3.6. Elas são precedidas por ‘f’ e são usadas para incorporar expressões dentro de literais de str.
     '''
     qntd_letras = int(input("Digite uma quantidade de LETRAS: "))
@@ -70,9 +69,12 @@ def main():
     print("="*50)
     print(f"Palavra-chave: {senha}")
     print("="*50)
-
+    
 if __name__ == "__main__":
     main()
     '''
-    Esta é uma construção comum em Python. Quando o script é executado, ele define a variável __name__ para "__main__", então essa condição se torna verdadeira e a função main() é chamada. Se o script for importado como um módulo em outro script, __name__ não será "__main__" e a função main() não será chamada automaticamente. Isso é útil quando você quer que certas coisas aconteçam quando o script é executado diretamente, mas não quando o código é importado como um módulo em outro script.
+    Esta é uma construção comum em Python. 
+    Quando o script é executado, ele define a variável "__name__" para "__main__", então essa condição se torna verdadeira e a função main() é chamada (iniciando o script). 
+    Se esse script for importado como um módulo em outro script, "__name__" não será "__main__" e a função 'main()' não será chamada automaticamente. 
+    Isso é útil quando você quer que certas coisas aconteçam quando o script é executado diretamente, mas não quando o código é importado como um módulo em outro script.
     '''
